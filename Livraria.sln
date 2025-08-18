@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Domain", "Livraria.Domain\Livraria.Domain.csproj", "{6B8801D2-EC76-4D56-BC3E-689AF843F24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Application", "Livraria.Application\Livraria.Application.csproj", "{1490BFFD-7A2D-4968-A19B-4E480C23EECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Infrastructure", "Livraria.Infrastructure\Livraria.Infrastructure.csproj", "{4E543F4C-3927-404A-8937-7C7A41933C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.CrossCutting", "Livraria.CrossCutting\Livraria.CrossCutting.csproj", "{1E7D9100-ADA8-45A9-AD24-0230673871A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Blazor", "Livraria.Blazor\Livraria.Blazor.csproj", "{B8B13C78-5674-451C-B423-47DBB6BD82F5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8801D2-EC76-4D56-BC3E-689AF843F24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8801D2-EC76-4D56-BC3E-689AF843F24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8801D2-EC76-4D56-BC3E-689AF843F24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8801D2-EC76-4D56-BC3E-689AF843F24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1490BFFD-7A2D-4968-A19B-4E480C23EECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1490BFFD-7A2D-4968-A19B-4E480C23EECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1490BFFD-7A2D-4968-A19B-4E480C23EECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1490BFFD-7A2D-4968-A19B-4E480C23EECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E543F4C-3927-404A-8937-7C7A41933C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E543F4C-3927-404A-8937-7C7A41933C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E543F4C-3927-404A-8937-7C7A41933C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E543F4C-3927-404A-8937-7C7A41933C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7D9100-ADA8-45A9-AD24-0230673871A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7D9100-ADA8-45A9-AD24-0230673871A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7D9100-ADA8-45A9-AD24-0230673871A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7D9100-ADA8-45A9-AD24-0230673871A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B13C78-5674-451C-B423-47DBB6BD82F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B13C78-5674-451C-B423-47DBB6BD82F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B13C78-5674-451C-B423-47DBB6BD82F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B13C78-5674-451C-B423-47DBB6BD82F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
