@@ -1,10 +1,13 @@
 using Livraria.Blazor.Components;
+using Livraria.CrossCutting.DependenciesApp;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
