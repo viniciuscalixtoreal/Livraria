@@ -43,8 +43,10 @@ namespace Livraria.Infrastructure.Repositories
                 _context.Livros.Update(livro);
                 await _context.SaveChangesAsync();
             }
-
-            throw new InvalidOperationException("Dados inválidos.");
+            else
+            {
+                throw new InvalidOperationException("Dados inválidos.");
+            }                
         }
 
         public async Task DeletarLivro(int id)
@@ -56,8 +58,10 @@ namespace Livraria.Infrastructure.Repositories
                 _context.Livros.Remove(obj);
                 await _context.SaveChangesAsync();
             }
-
-            throw new InvalidOperationException("Dados inválidos.");
+            else
+            {
+                throw new InvalidOperationException("Dados inválidos.");
+            }                
         }
     }
 }
